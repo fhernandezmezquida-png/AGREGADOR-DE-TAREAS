@@ -1,0 +1,87 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+font-family: Arial, Helvetica, sans-serif;
+background-color: linear-gradient(to right, #8de41c, #4400fd);
+height: 100vh;
+display: flex;
+justify-content: center;    
+align-items: center;
+
+} 
+.container{ 
+    background-color: #22ebe1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 8 20px rgba(224, 255, 47, 0.1);
+    width: 360px;
+}
+
+h1{ 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group{ 
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+
+}
+
+input{ 
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus{ 
+    border-color: #007bff;
+}
+#btnAgregar{ 
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAgregar:hover{ 
+    background: #0056b3;
+}
+ul{ 
+    list-style-type: none;
+    margin-top:20px;
+
+}
+
+li{ 
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btneliminar{ 
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btneliminar:hover{ 
+    background: #c82333;
+}
